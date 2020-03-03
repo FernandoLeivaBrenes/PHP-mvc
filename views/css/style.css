@@ -1,0 +1,9 @@
+.navbar
+{
+    background-color: #bcf5bc !important; 
+}
+
+.table tr
+{
+    background-image: linear-gradient( 125deg, #bcf5bcbb, lightgreen);
+}

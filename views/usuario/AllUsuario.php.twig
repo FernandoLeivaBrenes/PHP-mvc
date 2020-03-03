@@ -1,0 +1,42 @@
+{% extends "/base.php.twig" %}
+
+{% block head %}
+    <title> {{ APP_NAME }} </title>
+{% endblock %}
+
+{% block titulo %}
+    <h1> {{ APP_NAME }} </h1>
+{% endblock %}
+
+{% block enlaces %}
+    <a class="nav-item nav-link active" href="{{route}}usuario">Usuario</a>
+    <a class="nav-item nav-link" href="{{route}}prestamo">Prestamo</a>
+    <a class="nav-item nav-link" href="{{route}}coche">Coches</a>
+{% endblock %}
+		
+{% block contenido %}
+
+    <table class="table text-center table-striped" >
+
+        <thead class="thead-dark" >
+            <th>Nombre</th>
+            <th>Apellidos</th>
+            <th>Email</th>
+            <th></th>
+        </thead>
+
+        <tbody>
+            
+            {% for item in modelInfo %}
+            <tr>
+                <td>{{ item.nombre }}</td>
+                <td >{{ item.apellidos }}</td>
+                <td >{{ item.email }}</td>
+                <td ><a href="{{route}}usuario/delete/{{ item.usuario_id }}" class="borrar" data-refid="{{ item.usuario_id }}">Borrar</td>
+            </tr>
+            {% endfor %}
+
+        </tbody>
+    </table>
+
+{% endblock %}
