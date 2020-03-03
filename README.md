@@ -38,7 +38,7 @@ Alojado en el sitio web de [David Gómez Parra](https://github.com/DavidGmz) - [
 
 ## DISEÑO DE LA BASE DE DATOS
 
-![DISEÑO DE LA BASE DE DATOS](https://github.com/FernandoLeivaBrenes/PHP-mvc/tree/master/SQL%20y%20datos/ecorent_mvc.png "Base de datos de EcoRent_v0.0.1")
+![DISEÑO DE LA BASE DE DATOS](https://github.com/FernandoLeivaBrenes/PHP-mvc/blob/master/SQL%20y%20datos/ecorent_mvc.PNG "Base de datos de EcoRent_v0.0.1")
 
 
 #### GIT acaba de fastidiar un poco más la entrega, intento completar sesion quedando por realizar altas y modificaciones. No termina de pillarme el metodo * *save* * de otros trabajos anteriores.
