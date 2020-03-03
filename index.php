@@ -11,6 +11,7 @@
 
     require_once "config/global.php";
     require_once "core/FrontController.func.php";
+    require_once "core/Control.php";
 
     if(isset($_GET["con"])){
         $controller_obj=loadCtrl($_GET["con"]);
@@ -19,3 +20,5 @@
         $controller_obj=loadCtrl(APP_DEFAULT_CONTROLLER);
         doAction($controller_obj);
     }
+
+    echo "<pre>".print_r($_SESSION, false)."</pre>";

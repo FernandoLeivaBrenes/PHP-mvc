@@ -2,7 +2,7 @@ Options -Indexes
 RewriteEngine on
 
 # ---- Coche ---- 
-RewriteRule ^$ 								index.php?con=coche&act=see [L]
+#RewriteRule ^$ 								index.php?con=coche&act=see [L]
 RewriteRule ^coche$ 						index.php?con=coche&act=see [L]
 RewriteRule ^coche/add$ 				    index.php?con=coche&act=add [L]
 RewriteRule ^coche/delete/([1-9][0-9]*)$ 	index.php?con=coche&act=delete&id_=$1 [L]
@@ -16,6 +16,11 @@ RewriteRule ^usuario/delete/([1-9][0-9]*)$ 			index.php?con=usuario&act=delete&i
 RewriteRule ^prestamo$ 								index.php?con=prestamo&act=see [L]
 RewriteRule ^prestamo/add$ 							index.php?con=prestamo&act=add [L]
 RewriteRule ^prestamo/delete/([1-9][0-9]*)$ 		index.php?con=prestamo&act=delete&id_=$1 [L]
+
+# ---- Login ---- 
+RewriteRule ^$ 								        index.php?con=login&act=login [L]
+RewriteRule ^login$ 								index.php?con=login&act=login [L]
+RewriteRule ^logout$ 								index.php?con=login&act=logout [L]
 
 #RewriteRule ^nota/anadir/([1-9][0-9]*)$		index.php?ope=anadir&con=nota&id=$1 [L]
 
