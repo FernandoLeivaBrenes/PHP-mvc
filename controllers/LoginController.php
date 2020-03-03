@@ -28,7 +28,6 @@
             $control = new Control();
                          
             if( is_null($control) ):
-
                 echo $this->twig->render("login/login.php.twig", ['APP_NAME'  => APP_NAME ,
                                                              'modelInfo' => $modelInfo,
                                                              'route'     => route_made()

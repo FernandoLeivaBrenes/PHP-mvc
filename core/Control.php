@@ -26,7 +26,6 @@
                         $_SESSION['usuario_data'] = $usuario;
 
                     endif;
-
                     $sesion = $_SESSION;
 
                 endif;

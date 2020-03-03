@@ -24,6 +24,7 @@
         public function see()
         {
             $modelInfo = Prestamo::findAll();
+            
             // Recuperamos la vista :
             echo $this->twig->render("prestamo/AllPrestamo.php.twig", ['APP_NAME'  => APP_NAME ,
                                                              'modelInfo' => $modelInfo,
