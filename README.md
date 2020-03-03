@@ -15,4 +15,4 @@ El usuario básico (el resto que no sean administradores) puede ver los préstam
 
 Formato tabla sin posibilidad de ser responsive por ahora. 
 
-##Faltan muchas funcionalidades - no me funcionan más
+## Faltan muchas funcionalidades - no me funcionan más
