@@ -14,3 +14,5 @@ admin
 El usuario básico (el resto que no sean administradores) puede ver los préstamos que ha tenido y los que aún conserve. 
 
 Formato tabla sin posibilidad de ser responsive por ahora. 
+
+##Faltan muchas funcionalidades - no me funcionan más
