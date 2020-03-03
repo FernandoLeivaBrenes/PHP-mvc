@@ -24,7 +24,9 @@
 
 GitHub [PHP-mvc](https://github.com/FernandoLeivaBrenes/PHP-mvc)
 
-Alojado en el sitio web de [David Gómez Parra](https://github.com/DavidGmz) - [PHP-mvc](http://fernandoleiva.davidgmz.es/)
+Alojado en el sitio web de [David Gómez Parra](https://github.com/DavidGmz)
+
+Mi parte : [PHP-mvc](http://fernandoleiva.davidgmz.es/)
 
 ## USUARIOS CONOCIDOS
 
