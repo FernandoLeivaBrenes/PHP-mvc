@@ -8,5 +8,7 @@
 	
 	// Constantes de configuración
 	define("APP_NAME", "EcoRent");
-	define("APP_DEFAULT_CONTROLLER", "coche");
-	define("APP_DEFAULT_ACTION", "see");
+	// define("APP_DEFAULT_CONTROLLER", "coche");
+	define("APP_DEFAULT_CONTROLLER", "login");
+	// define("APP_DEFAULT_ACTION", "see");
+	define("APP_DEFAULT_ACTION", "login");

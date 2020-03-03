@@ -37,8 +37,6 @@
 		 */
 		public function query($sql)
 		{
-			// echo $sql;
-			// die();
 			$this->resultado = $this->pdo->query($sql);
 			return $this;
 		}

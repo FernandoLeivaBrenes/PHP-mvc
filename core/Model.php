@@ -23,7 +23,7 @@
 		 * Getter - devuelve el valor de la propiedad,
 		 * para lo cual utilizamos reflexión.
 		 */
-		public function get($prop)
+		protected function get($prop)
 		{
 			$cls = get_called_class() ;
 
