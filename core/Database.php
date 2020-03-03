@@ -40,7 +40,6 @@
 			// echo $sql;
 			// die();
 			$this->resultado = $this->pdo->query($sql);
-			echo $this->resultado;
 			return $this;
 		}
 

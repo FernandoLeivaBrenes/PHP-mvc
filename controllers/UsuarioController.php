@@ -37,9 +37,7 @@
         public static function delete()
         {
             $id = $_GET["id_"];
-			Database::getInstance()
-                    ->query("DELETE FROM ".Usuario::get('tabla')." WHERE ".Usuario::get('id')." = '$id';") ;
-
+			Usuario::delete($id);
             route_redirect( 'usuario' );
 		}
     }

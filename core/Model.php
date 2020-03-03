@@ -41,11 +41,6 @@
 		{
 			$pk = self::get('id') ;
 			$tb = self::get('tabla') ;
-			
-
-			$sql = "SELECT * FROM $tb WHERE $pk='$idvalue' ;" ;
-			echo $sql ;
-			die();
 
 			return Database::getInstance()
 					->query("SELECT * FROM $tb 
@@ -63,5 +58,14 @@
 			return Database::getInstance()
 					->query("SELECT * FROM $tb ;")
 					->getObjects(get_called_class()) ;
+		}
+
+		public static function delete( $idRemove )
+		{
+			$pk = self::get('id') ;
+			$tb = self::get('tabla') ;
+
+			Database::getInstance()
+					->query("DELETE FROM $tb WHERE $pk = '$idRemove' ;") ;
 		}
 	}

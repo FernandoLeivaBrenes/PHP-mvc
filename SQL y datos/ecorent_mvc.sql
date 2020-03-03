@@ -438,8 +438,8 @@ ALTER TABLE `usuario`
 -- Filtros para la tabla `prestamo`
 --
 ALTER TABLE `prestamo`
-  ADD CONSTRAINT `FK_coche_id` FOREIGN KEY (`coche_id`) REFERENCES `coche` (`coche_id`),
-  ADD CONSTRAINT `FK_usuario_id` FOREIGN KEY (`usuario_id`) REFERENCES `usuario` (`usuario_id`);
+  ADD CONSTRAINT `FK_coche_id` FOREIGN KEY (`coche_id`) REFERENCES `coche` (`coche_id`) ON DELETE CASCADE,
+  ADD CONSTRAINT `FK_usuario_id` FOREIGN KEY (`usuario_id`) REFERENCES `usuario` (`usuario_id`) ON DELETE CASCADE;
 COMMIT;
 
 /*!40101 SET CHARACTER_SET_CLIENT=@OLD_CHARACTER_SET_CLIENT */;

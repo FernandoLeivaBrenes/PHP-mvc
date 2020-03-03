@@ -30,4 +30,14 @@
                                                              'route'     => route_made()
                                                              ]);
         }
+
+        /**
+         * Borrado de uno según IP
+         */
+        public static function delete()
+        {
+            $id = $_GET["id_"];
+			Coche::delete($id);
+            route_redirect( 'coche' );
+		}
     }
