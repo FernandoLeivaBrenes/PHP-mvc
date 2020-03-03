@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Servidor: 127.0.0.1
--- Tiempo de generación: 03-03-2020 a las 08:47:47
+-- Tiempo de generación: 03-03-2020 a las 17:51:34
 -- Versión del servidor: 10.4.11-MariaDB
 -- Versión de PHP: 7.4.2
 
@@ -332,8 +332,8 @@ CREATE TABLE `usuario` (
 --
 
 INSERT INTO `usuario` (`usuario_id`, `nombre`, `apellidos`, `email`, `pass_wd`, `admin`) VALUES
-(1, 'Una', 'Merrgen', 'umerrgen0@hibu.com', '21232F297A57A5A743894A0E4A801FC3', 1),
-(2, 'Audie', 'Nyssens', 'anyssens1@indiatimes.com', '827CCB0EEA8A706C4C34A16891F84E7B', NULL),
+(1, 'Una', 'Merrgen', 'umerrgen0@hibu.com', '21232f297a57a5a743894a0e4a801fc3', 1),
+(2, 'Audie', 'Nyssens', 'anyssens1@indiatimes.com', '827ccb0eea8a706c4c34a16891f84e7b', NULL),
 (3, 'Shaine', 'Salvati', 'ssalvati2@xing.com', '9ac130640b81358bef30c6545589d9cc', NULL),
 (4, 'Alessandro', 'Levy', 'alevy3@tmall.com', 'a405268afe6883a30098a7a3d385ee14', NULL),
 (5, 'Leandra', 'Lethlay', 'llethlay4@intel.com', 'deb80d99624e2152ab04c5185ec76e35', NULL),
@@ -356,7 +356,7 @@ INSERT INTO `usuario` (`usuario_id`, `nombre`, `apellidos`, `email`, `pass_wd`, 
 (22, 'Keelby', 'Aucourte', 'kaucourtel@senate.gov', '66f697d5aeff609af926fe1f04f20f7e', NULL),
 (23, 'Arthur', 'Kubecka', 'akubeckam@reuters.com', '8ea7d4021df294db1ad168b7218df3cd', NULL),
 (24, 'Tillie', 'Pikett', 'tpikettn@paginegialle.it', '5c3c22aea08f7c56d4d326cafe2cacff', NULL),
-(25, 'Linnie', 'Fishleigh', 'lfishleigho@dot.gov', '81DC9BDB52D04DC20036DBD8313ED055', NULL),
+(25, 'Linnie', 'Fishleigh', 'lfishleigho@dot.gov', '81dc9bdb52d04dc20036dbd8313ed055', NULL),
 (26, 'Bree', 'Ough', 'boughp@infoseek.co.jp', 'ee2e8bb2b5b00dc97c2c80fdeacf68a1', NULL),
 (27, 'Nancee', 'D\'Almeida', 'ndalmeidaq@time.com', '23ab6aac2b2499b8e76c27c85fb06b92', NULL),
 (28, 'Keri', 'Wisson', 'kwissonr@issuu.com', 'c212eae9cbc0656039424342290df02c', NULL),
