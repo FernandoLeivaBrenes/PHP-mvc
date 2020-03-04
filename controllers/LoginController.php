@@ -11,6 +11,8 @@
 
     require_once "core/TwigInitController.php";
     require_once "models/Usuario.php";
+    require_once "models/Coche.php";
+    require_once "core/Control.php";
 
     class LoginController extends TwigInitController
     {
@@ -21,24 +23,20 @@
         /** */
         public function login()
         {
-            $modelInfo = [
-                            'error' => false,
-                         ];
+            $_SESSION = Control::getInstance();
+            //echo "<pre>--".print_r($_SESSION->getSesion(), true)."</pre>";
 
-            $control = new Control();
-                         
-            if( is_null($control) ):
+            if(empty($_SESSION->getSesion())):
                 echo $this->twig->render("login/login.php.twig", ['APP_NAME'  => APP_NAME ,
-                                                             'modelInfo' => $modelInfo,
                                                              'route'     => route_made()
                                                              ]);
             else:
                 echo $this->twig->render("coche/AllCoche.php.twig", ['APP_NAME'  => APP_NAME ,
-                                                            'modelInfo' => $modelInfo,
-                                                            'route'     => route_made()
-                                                            ]);
+                                                             'modelInfo' => $modelInfo = Coche::findAll(),
+                                                             'route'     => route_made()
+                                                             ]);
             endif;
-            
+
         }
 
         public function logout()
