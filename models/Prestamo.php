@@ -13,7 +13,7 @@
 
     class Prestamo extends Model
     {
-        protected $id = 'prestamo_id';
+        protected $id = 'prestamo';
         protected $tabla = 'prestamo';
 
         public static function findAll()

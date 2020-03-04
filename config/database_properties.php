@@ -17,7 +17,7 @@
 		// "user"     => "ddb144121",
 		"user"     => "root",
         // "pass"     => "f5BRirYP5_4",
-        "pass"     => "",
+		"pass"     => "",
         // Cambio la base de datos por una más sencilla
         // "dbno"     => "ddb144121"
         "dbno"     => "ecorent_mvc"
