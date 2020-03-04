@@ -20,4 +20,4 @@
         doAction($controller_obj);
     }
 
-    echo "<pre>--".print_r($_SESSION, true)."</pre>";
+    //echo "<pre>--".print_r($_SESSION, true)."</pre>";
